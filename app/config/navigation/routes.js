@@ -249,13 +249,14 @@ export const MainRoutes = [
       }
     ]
   },
-  {
-    id: 'Themes',
-    title: 'Themes',
-    icon: FontIcons.theme,
-    screen: Screens.Themes,
-    children: []
-  },
+  // themes menu disabled
+  // {
+  //   id: 'Themes',
+  //   title: 'Themes',
+  //   icon: FontIcons.theme,
+  //   screen: Screens.Themes,
+  //   children: []
+  // },
 ];
 
 let menuRoutes = _.cloneDeep(MainRoutes);

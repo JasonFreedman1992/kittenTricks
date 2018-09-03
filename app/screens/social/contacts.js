@@ -47,7 +47,7 @@ export class Contacts extends React.Component {
     let name = `${row.firstName} ${row.lastName}`;
     return (
       <TouchableOpacity onPress={() => this.props.navigation.navigate('ProfileV1', {id: row.id})}>
-        <View style={styles.container}>
+        <View style={styles.flexTest}>
           <Avatar rkType='circle' style={styles.avatar} img={row.photo}/>
           <RkText>{name}</RkText>
         </View>
@@ -100,6 +100,17 @@ export class Contacts extends React.Component {
 }
 
 let styles = RkStyleSheet.create(theme => ({
+
+  flexTest:
+  {
+    flex: .8,
+    justifyContent:'center',
+    width: 70,
+    //flexDirection: 'row',
+    //padding: 16,
+    //alignItems: 'center'
+  },
+
   root: {
     backgroundColor: theme.colors.screen.base
   },

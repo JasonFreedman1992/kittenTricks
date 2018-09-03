@@ -17,7 +17,7 @@
     "moment": "2.20.1",
     "prop-types": "15.6.0",
     "react": "16.0.0",
-    "react-native": "0.51.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-24.0.0.tar.gz",
     "react-native-keyboard-spacer": "0.4.1",
     "react-native-linear-gradient": "2.4.0",
     "react-native-progress-bar": "0.1.2",
@@ -25,7 +25,7 @@
     "react-native-ui-kitten": "3.0.0",
     "react-navigation": "1.0.0-beta.23",
     "victory-native": "0.15.0",
-    "expo-analytics":"1.0.6"
+    "expo-analytics": "1.0.6"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
