@@ -41,30 +41,30 @@ export const MainRoutes = [
     icon: FontIcons.profile,
     screen: Screens.SocialMenu,
     children: [
-      {
-        id: 'ProfileV1',
-        title: 'User Profile V1',
-        screen: Screens.ProfileV1,
-        children: []
-      },
-      {
-        id: 'ProfileV2',
-        title: 'User Profile V2',
-        screen: Screens.ProfileV2,
-        children: []
-      },
-      {
-        id: 'ProfileV3',
-        title: 'User Profile V3',
-        screen: Screens.ProfileV3,
-        children: []
-      },
-      {
-        id: 'ProfileSettings',
-        title: 'Profile Settings',
-        screen: Screens.ProfileSettings,
-        children: []
-      },
+      // {
+      //   id: 'ProfileV1',
+      //   title: 'User Profile V1',
+      //   screen: Screens.ProfileV1,
+      //   children: []
+      // },
+      // {
+      //   id: 'ProfileV2',
+      //   title: 'User Profile V2',
+      //   screen: Screens.ProfileV2,
+      //   children: []
+      // },
+      // {
+      //   id: 'ProfileV3',
+      //   title: 'User Profile V3',
+      //   screen: Screens.ProfileV3,
+      //   children: []
+      // },
+      // {
+      //   id: 'ProfileSettings',
+      //   title: 'Profile Settings',
+      //   screen: Screens.ProfileSettings,
+      //   children: []
+      // },
       {
         id: 'Notifications',
         title: 'Notifications',
@@ -167,31 +167,31 @@ export const MainRoutes = [
       children: []
     },]
   },
-  {
-    id: 'WalkthroughMenu',
-    title: 'Walkthroughs',
-    icon: FontIcons.mobile,
-    screen: Screens.WalkthroughMenu,
-    children: [{
-      id: 'Walkthrough',
-      title: 'Walkthrough',
-      screen: Screens.WalkthroughScreen,
-      children: []
-    }]
-  },
+  // {
+  //   id: 'WalkthroughMenu',
+  //   title: 'Walkthroughs',
+  //   icon: FontIcons.mobile,
+  //   screen: Screens.WalkthroughMenu,
+  //   children: [{
+  //     id: 'Walkthrough',
+  //     title: 'Walkthrough',
+  //     screen: Screens.WalkthroughScreen,
+  //     children: []
+  //   }]
+  // },
   {
     id: 'EcommerceMenu',
     title: 'Ecommerce',
     icon: FontIcons.card,
     screen: Screens.EcommerceMenu,
     children: [
-      {
-        id: 'Cards',
-        title: 'Cards',
-        icon: FontIcons.card,
-        screen: Screens.Cards,
-        children: []
-      },
+      // {
+      //   id: 'Cards',
+      //   title: 'Cards',
+      //   icon: FontIcons.card,
+      //   screen: Screens.Cards,
+      //   children: []
+      // },
       {
         id: 'AddToCardForm',
         title: 'Add Card Form',
